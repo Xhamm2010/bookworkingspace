@@ -12,4 +12,19 @@ This project is a Co-working Space Booking System built using HTML, CSS, and Jav
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/co-working-space-booking.git
+   git clone https://github.com/Xhamm2010/bookworkingspace.git
+
+2. cd bookworkingspace
+3. Open index.html in your web browser to view the application.
+   
+
+## Usage
+Select a desk type (Individual or Team).
+Enter the Desk ID.
+Select a membership tier (for individual desks).
+Enter the number of hours for booking.
+Click "Book Now" to book the desk.
+The system will display the total charge and mark the desk as booked.
+The revenue dashboard will update with the latest booking information.
+
+   
