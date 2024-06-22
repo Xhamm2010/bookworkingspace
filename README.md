@@ -19,12 +19,12 @@ This project is a Co-working Space Booking System built using HTML, CSS, and Jav
    
 
 ## Usage
-Select a desk type (Individual or Team).
-Enter the Desk ID.
-Select a membership tier (for individual desks).
-Enter the number of hours for booking.
-Click "Book Now" to book the desk.
-The system will display the total charge and mark the desk as booked.
-The revenue dashboard will update with the latest booking information.
+- Select a desk type (Individual or Team).
+- Enter the Desk ID.
+- Select a membership tier (for individual desks).
+- Enter the number of hours for booking.
+- Click "Book Now" to book the desk.
+- The system will display the total charge and mark the desk as booked.
+- The revenue dashboard will update with the latest booking information.
 
    
