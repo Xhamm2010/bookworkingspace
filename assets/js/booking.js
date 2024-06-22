@@ -44,7 +44,7 @@ document.getElementById('booking-form').addEventListener('submit', (event) => {
     });
 
     // Display booking result
-    document.getElementById('booking-result').textContent = `Desk booked successfully! Total charged: $${totalPrice.toFixed(2)}`;
+    document.getElementById('booking-result').textContent = `Desk booked successfully! Total charged: &#8358;${totalPrice.toFixed(2)}`;
 
     // Update revenue dashboard
     updateDashboard();
@@ -63,10 +63,10 @@ function updateDashboard() {
     });
 
     document.getElementById('revenue-dashboard').innerHTML = `
-        <p>Basic: $${revenueByTier.basic.toFixed(2)}</p>
-        <p>Premium: $${revenueByTier.premium.toFixed(2)}</p>
-        <p>Executive: $${revenueByTier.executive.toFixed(2)}</p>
-        <p>Team: $${revenueByTier.team.toFixed(2)}</p>
-        <p>Total: $${(revenueByTier.basic + revenueByTier.premium + revenueByTier.executive + revenueByTier.team).toFixed(2)}</p>
+        <p>Basic: &#8358;${revenueByTier.basic.toFixed(2)}</p>
+        <p>Premium: &#8358;${revenueByTier.premium.toFixed(2)}</p>
+        <p>Executive: &#8358;${revenueByTier.executive.toFixed(2)}</p>
+        <p>Team: &#8358;${revenueByTier.team.toFixed(2)}</p>
+        <p>Total: &#8358;${(revenueByTier.basic + revenueByTier.premium + revenueByTier.executive + revenueByTier.team).toFixed(2)}</p>
     `;
 }
