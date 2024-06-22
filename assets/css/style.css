@@ -384,3 +384,61 @@ body {
 .gallery_product {
   margin-bottom: 30px;
 }
+.desks-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.desks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.desk {
+  width: 50px;
+  height: 50px;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 2px solid #333;
+}
+
+.desk.booked {
+  background-color: red;
+  cursor: not-allowed;
+}
+
+.booking-form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.booking-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.booking-form label {
+  margin-top: 10px;
+}
+
+.booking-form input, .booking-form select, .booking-form button {
+  margin-top: 5px;
+}
+
+.dashboard {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
