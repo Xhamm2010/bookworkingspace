@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
     for (let i = 1; i <= 5; i++) {
         const desk = document.createElement('div');
         desk.classList.add('desk');
-        desk.dataset.id = i + 10;
+        desk.dataset.id = i;
         desk.dataset.type = 'team';
         desk.textContent = `T${i}`;
         teamDesksContainer.appendChild(desk);
